@@ -49,7 +49,7 @@ return [
 
         'mysql' => [
             'driver' => 'mysql',
-            'url' => $url,
+            'url' => 'mysql://b3176a8bb8bc12:c837ff76@us-cdbr-east-04.cleardb.com/heroku_45be8a8b01e1298?reconnect=true',
             'host' => $host,
             'port' => env('DB_PORT', '3306'),
             'database' => $database,
